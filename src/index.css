@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: monospace;
+}
+
+.container{
+  background-color :#A9F3FD;
+  height: 100vh;
+}
+
+header{
+  background-color: #97CE4C;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.display-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.select{
+  font-size: 18px;
+  font-family: monospace;
+
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.select:focus{
+  outline: none;
+}
+
+.select option{
+  font-size: 15px;
+}
+
+ul li{
+  font-size: 15px;
+  margin: 5px;
+  font-weight: 600;
+}
+
